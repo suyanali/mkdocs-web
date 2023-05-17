@@ -47,10 +47,10 @@ markdown_extensions:
 
   - toc:
       permalink: true
-markdown_extensions:
-  - toc:
-      permalink: true
+      title: On this page
+      toc_depth: 4
   - tables
+  
 plugins:
   - search
   - roamlinks 
