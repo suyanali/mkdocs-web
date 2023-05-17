@@ -1,0 +1,630 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../Topic%201/Note%202/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.13">
+    
+    
+      
+        <title>08 發布 - obsidian-mkdocs template</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.85bb2934.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a6bdf11c.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#08" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="obsidian-mkdocs template" class="md-header__button md-logo" aria-label="obsidian-mkdocs template" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              08 發布
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="obsidian-mkdocs template" class="md-nav__button md-logo" aria-label="obsidian-mkdocs template" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    obsidian-mkdocs template
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Obsidian Notes
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Features
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Features
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Features/LaTeX%20Math%20Support/" class="md-nav__link">
+        LaTeX Math Support
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Features/Mermaid%20Diagrams/" class="md-nav__link">
+        Mermaid diagrams
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Features/Text%20Formatting/" class="md-nav__link">
+        Text Formatting
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Topic 1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Topic 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Topic%201/Note%201/" class="md-nav__link">
+        Note 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Topic%201/Note%202/" class="md-nav__link">
+        Note 2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Test
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Test
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        08 發布
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<p>建立時間: 2023-02-01 23:48</p>
+<p>Modified: 2023-05-12 19:55</p>
+<p>標題: [ 08 發布 ]</p>
+<p>tags: #obsidian, #雲端</p>
+<hr />
+<h1 id="08">08 發布<a class="headerlink" href="#08" title="Permanent link">&para;</a></h1>
+<p>[toc]
+<div class="highlight"><pre><span></span><code>
+</code></pre></div>
+<font color="#ff0000"><strong>來源：</strong></font>
+1. https://beingpax.medium.com/7-obsidian-publish-alternatives-to-publish-your-notes-online-for-free-33db4fb06f5
+2. 
+3. </p>
+<hr />
+<h1 id="1">方法1: 花錢、付費服務中有一個發布功能<a class="headerlink" href="#1" title="Permanent link">&para;</a></h1>
+<h1 id="2-obsius-obsidian-plugin">方法2: 插件<a href="https://github.com/jonstodle/obsius-obsidian-plugin">obsius-obsidian-plugin</a><a class="headerlink" href="#2-obsius-obsidian-plugin" title="Permanent link">&para;</a></h1>
+<p><span style="background:#fff88f">僅支持純文本和簡單樣式</span>，想要發布哪一篇筆記，你只需要選中並右鍵此筆記，在右鍵菜單裡選擇publish to obsius即可。如果你已經發布了A筆記，現在對A筆記進行了內容更新，此時你再次選中A筆記右鍵，可以看到update in obsius，只要點擊便可在網頁中更新了。你還想拷貝更新後的筆記鏈接和刪除已發布的筆記，此時你只需再次右鍵，便可以看到copy obsius URL和Remove from obsius。不能設網域</p>
+<h1 id="3-obsidian-web">方法3: 插件<a href="https://github.com/code-scan/obsidian-web">obsidian-web</a><a class="headerlink" href="#3-obsidian-web" title="Permanent link">&para;</a></h1>
+<p><span style="background:#fff88f">偏wiki</span>可資料夾發布,內網訪問。外網訪問要建議可以使用ngrok進行映射</p>
+<h1 id="4-obsidian-digital-garden-github-netlify">方法4: 插件<a href="https://github.com/oleeskild/obsidian-digital-garden">obsidian-digital-garden</a>  + Github + Netlify<a class="headerlink" href="#4-obsidian-digital-garden-github-netlify" title="Permanent link">&para;</a></h1>
+<p><a href="https://anotherdayu.com/2022/4222/">教學 基于 Digital Garden + Github + Netlify</a>,插件製作者是使用Digital Garden + Github +Vercel</p>
+<h1 id="5">方法5: 傳到網誌或部落格<a class="headerlink" href="#5" title="Permanent link">&para;</a></h1>
+<h3 id="mdhtml">md轉成html格式<a class="headerlink" href="#mdhtml" title="Permanent link">&para;</a></h3>
+<p>可以用一些線上網站或者插件-<a href="https://github.com/jenningsb2/copy-as-html">Copy as HTML</a>  或者 <a href="https://github.com/mvdkwast/obsidian-copy-as-html">obsidian-copy-as-html</a></p>
+<h2 id="_1">非自己網域: (有的可付費指向自己網址)<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ol>
+<li>wordpress (要轉格式)</li>
+<li>medium (要轉格式)，ps沒有高亮</li>
+<li>blogger (要轉格式)</li>
+<li><a href="https://telegra.ph/">Telegraph</a>  支援 Markdown 語法，具有匿名特性，它無須註冊或登入任何帳號，發佈後只有原作者能編輯內容，由於沒有登入、註冊帳號的機制，編輯應該是認瀏覽器 Cookies 記錄的，因此只有原作者使用原瀏覽器才有編輯權限。</li>
+<li><a href="https://write.as/">Write.as </a></li>
+<li>Mixa網站: 感覺有些新，一些功能都沒有</li>
+<li><a href="[https://bloggi.co/">Bloggi</a>) :只支援 Markdown 語法，沒有所見即所得編輯器，沒有插件快速發布，沒有toc，有超連結的文字沒有特殊色表示這裡有超連結。<span style="background:#fff88f">優點：接受md的高亮符號</span>、html的底色</li>
+</ol>
+<h2 id="_2">自己網域架站:<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>需要網域、dns、伺服器</p>
+<h3 id="_3">程式:靜態站點生成器<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<ol>
+<li>wordpress</li>
+<li>ghost: md格式</li>
+<li>Hexo: 用md寫網站，可一鍵佈署到GitHub Pages, Heroku 或其他網站。<a href="https://ithelp.ithome.com.tw/articles/10298672">教學</a></li>
+<li>frontpage</li>
+<li>Hugo ：文章用Markdown寫好後，用Hugo生成網頁，將整份網站原始碼上傳到私有Github倉庫(備份)，再由<a href="https://ivonblog.com/posts/build-a-website-with-hugo/">Netlify</a> /<a href="https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/">Cloudflare Pages</a>/<a href="https://learn.microsoft.com/en-us/azure/static-web-apps/publish-hugo">Azure static web</a>自動部屬公開網頁<a href="https://ivonblog.com/posts/build-a-website-with-hugo/">教學</a>。 另一個<a href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/">教學</a>，另一個
+<a href="https://github.com/vinibaggio/obsblog-template">教學</a> ,另一個教學<a href="https://chupai.github.io/posts/200316_hugo/">教學hugo+github pages+disqus+google廣告</a></li>
+<li>Jekyll</li>
+<li>Gitbook</li>
+<li>mkdocs（Markdown Documents）: md格式筆記，python程式碼<a href="https://sspai.com/prime/story/mkdocs-primer">教學</a> <a href="https://kool.casa/notes/8scrji4wa1nwmrz4a0vosim/">教學2</a>。<a href="https://github.com/jobindjohn/obsidian-publish-mkdocs">適合ob的模板</a></li>
+<li>Gatsby: md格式，適合obsidian的網站模板<a href="https://github.com/theowenyoung/gatsby-theme-primer-wiki">Wiki/Docs/Knowledge Base 的 Gatsby Theme</a>、 <a href="https://github.com/juxtdesigncc/gatsby-starter-obsidian-garden">gatsby-starter-obsidian-garden</a>、<a href="https://github.com/binnyva/gatsby-garden">gatsby-garden: A Digital Garden Theme for Gatsby</a>。一些插件<a href="https://github.com/johackim/gatsby-remark-obsidian">gatsby-remark-obsidian</a>支持ob的md與法的的 Gatsby 插件</li>
+<li>自製適合obsidian的靜態站點，例如支援雙向連結(原始程式看作者是用甚麼寫,就是所謂的主題)，可以參考 <a href="https://beingpax.medium.com/7-obsidian-publish-alternatives-to-publish-your-notes-online-for-free-33db4fb06f5">幾個站點</a> <a href="https://forum-zh.obsidian.md/t/topic/8852">各種靜態站點比較</a></li>
+</ol>
+<p>PS 靜態站點的缺點是：
+-   沒有評論功能。建議使用第三方評論系統，例如 Disqus。
+-   動態生成的內容，如最近的帖子、最近的評論、相關的帖子，將被保存為靜態
+-</p>
+<h3 id="_4">架在哪<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<ol>
+<li>虛擬伺服器、雲端主機</li>
+<li>雲端硬碟 (靜態網站)</li>
+<li>github倉庫</li>
+<li>github pages: 僅支持靜態網頁,網站大小不能超過 1GB, 網站每月流量不能超過 100 GB, 一小時內的網站更新不得超過 10 次，庫的名稱規則為<span style="background:#fff88f"> 名稱.github.io</span> ,庫得設<span style="background:#fff88f">公開</span>。<a href="https://youtu.be/05MbBWB6Gbc">影片簡易教學</a> </li>
+<li>Gitlab Pages</li>
+<li>Netlify :每月流量限制100GB<a href="https://zhuanlan.zhihu.com/p/55252024">教學</a></li>
+<li>Neocities</li>
+</ol>
+<h3 id="_5">部屬自動化程式<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Netlify <a href="https://zhuanlan.zhihu.com/p/55252024">教學</a>: 可直接拉github倉庫內容去建構網站(網站放在github，可以git版本控制)，庫可以設<span style="background:#fff88f">私人</span></li>
+<li>cloudflare 的Page <a href="https://lillianwho.com/posts/obsidian-hugo-cloudflare/">教學-使用hugo</a> : 可直接拉github倉庫內容去建構網站(網站放在github，可以git版本控制，庫可以是<span style="background:#fff88f">私密</span>)，可以接受hugo、Jekyll、Gitbook等等，可以綁自己的域名</li>
+<li>GitHub page: 庫得設<span style="background:#fff88f">公開</span>,庫的名稱規則為<span style="background:#fff88f"> 名稱.github.io</span></li>
+<li>vercel</li>
+</ol>
+<h3 id="_6">總結 主要是:架站程式+部屬程式+放的位置<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p># 方法6: 未整理
+ https://beingpax.medium.com/7-obsidian-publish-alternatives-to-publish-your-notes-online-for-free-33db4fb06f5
+ ## 1.MindStone
+代碼在<a href="https://github.com/TuanManhCao/digital-garden">github</a>,寫了整個網站，把md放入指定位置，安裝Yarn，就可在內網看到。若要外網可看，作者同個github庫有寫Netlify創鍵照步驟映照到外網，選擇要部屬的站點(哪裡創建站點)，例如github，以後更新md只要push上去github庫就行了</p>
+<h2 id="2-wordpressgithub-pages">2. wordpress程式+插件+github pages託管<a class="headerlink" href="#2-wordpressgithub-pages" title="Permanent link">&para;</a></h2>
+<p>https://www.hywel.me/static/site/wordpress/2016/07/17/fast-free-static-website-with-wordpress-and-github-pages.html</p>
+<h2 id="3-htmlgithubcloudflare-page">3. html+github託管+cloudflare 的Page<a class="headerlink" href="#3-htmlgithubcloudflare-page" title="Permanent link">&para;</a></h2>
+<p><a href="https://orangeai.substack.com/p/cloudflare">教學</a>
+轉成html後，建一個index.html，再把其他筆記一起push到github，cloudflare 的Page串聯到github庫
+缺點: 整麼串??</p>
+<h2 id="4-github-wordpress">4. 如何使用 GitHub 更好地開發 WordPress 網站<a class="headerlink" href="#4-github-wordpress" title="Permanent link">&para;</a></h2>
+<p>https://www.wpdaxue.com/wordpress-github.html
+本機先建立wordpress後推送到github庫，再來建立到githib pages
+網頁格式html (因為wordpress嗎?)</p>
+<h2 id="5-wordpress-cloudflare-pages">5. WordPress + Cloudflare Pages<a class="headerlink" href="#5-wordpress-cloudflare-pages" title="Permanent link">&para;</a></h2>
+<p>https://www.letswrite.tw/wordpress-cloudflare/
+本機先建立wordpress，安裝外掛 <a href="https://tw.wordpress.org/plugins/simply-static/">Simply Static</a> 會把建立的文章轉靜態HTML 檔案，跑完後要下載整個網站的zip。丟上Cloudflare Pages部屬網站</p>
+<h2 id="6perlite-php">6.<a href="https://github.com/secure-77/Perlite">Perlite</a> (使用 PHP)<a class="headerlink" href="#6perlite-php" title="Permanent link">&para;</a></h2>
+<p>只需將整個 Obsidian vault 或 markdown 文件夾/文件結構放入您的 web 目錄中。該頁面自行構建。這背後的想法是您不需要自己或使用任何腳本將 Markdown 文件轉換為 HTML。PHP 引擎“按原樣”分析文件結構。您可以將整個 Obsidian 保險庫或 Markdown 文件夾/文件結構放在您的 Web 目錄中，頁面將自行構建。<a href="https://secure77.de/perlite/">教學</a>
+- <strong>如何將筆記添加到perlite?</strong>
+通過 Github 同步我的筆記。我將我的保險庫和更改推送到私有 Github 存儲庫，我的網絡服務器從那裡提取數據，這可以通過 cron 作業安排
+現在您可以通過您的私有 git 密鑰將您的存儲庫克隆並拉取到您的 Web 根目錄
+或者，您可以使用任何其他基於雲的服務在本地保管庫和網絡服務器之間同步文件</p>
+<h1 id="_7">跟匯出一樣有些功能不支援或者得改一下程式碼<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h1>
+<p>參考 [[09 轉檔、匯出]]
+1. 大綱，依照各網站手動修改
+2. dataview都不行用，就算是官方也不行
+3. 一般md的高亮符號常不能用，常見是背景黃底</p>
+<h1 id="_8">圖片&amp;影片<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h1>
+<ul>
+<li>線上免費圖床<ul>
+<li>可以參考[[03.圖床方法整理]] 建立免費圖床</li>
+<li>缺點：圖床砍圖</li>
+<li>優點：免費，流量算圖床公司的，文章檔案小</li>
+</ul>
+</li>
+<li>本地圖床<ul>
+<li>可以使用插件把線上圖床都下載下來 [[05 插件]]</li>
+<li>優點：安全</li>
+<li>缺點：占空間、流量算自己的、需要整理圖片與文章放一起<a href="https://ivonblog.com/posts/self-hosting-hugo-images/">教學</a></li>
+<li></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.b4d07000.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
