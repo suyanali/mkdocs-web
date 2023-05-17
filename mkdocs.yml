@@ -47,7 +47,10 @@ markdown_extensions:
 
   - toc:
       permalink: true
-
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
 plugins:
   - search
   - roamlinks 
@@ -59,7 +62,3 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
 
-theme:
-  features:
-    - toc.follow
-    - navigation.top
